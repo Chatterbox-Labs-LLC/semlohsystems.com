@@ -1,4 +1,10 @@
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Leadership | Semloh Systems Corp",
+  description: "Meet the founders of Semloh Systems Corp: George S Holmes and Connor. Leaders in quantitative finance and technology infrastructure.",
+};
 
 export default function FoundersPage() {
   return (

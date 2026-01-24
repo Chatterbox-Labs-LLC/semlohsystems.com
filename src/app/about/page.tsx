@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About | Semloh Systems Corp",
+  description: "Learn about Semloh Systems Corp, founded in 2024 in Chicago, and our mission to integrate financial intelligence with advanced technological infrastructure.",
+};
+
 export default function AboutPage() {
   return (
     <main className="flex-grow py-24 lg:py-32">

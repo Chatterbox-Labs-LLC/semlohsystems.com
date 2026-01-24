@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Legal & Compliance | Semloh Systems Corp",
+  description: "Corporate governance, regulatory disclosures, and risk warnings for Semloh Systems Corp, HP Capital LLC, and Semloh Software LLC.",
+};
+
 export default function LegalPage() {
   const sections = [
     {

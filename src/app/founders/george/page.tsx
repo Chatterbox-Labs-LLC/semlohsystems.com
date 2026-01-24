@@ -1,6 +1,30 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "George S Holmes | Co-Founder",
+  description: "George S Holmes is a Co-Founder of Semloh Systems Corp, leading quantitative research and investment strategy for the firm's systematic trading operations.",
+};
+
 export default function GeorgePage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "George S Holmes",
+    "jobTitle": "Co-Founder",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Semloh Systems Corp"
+    },
+    "url": "https://semlohsystems.com/founders/george",
+    "description": "Co-Founder of Semloh Systems Corp, leading quantitative research and investment strategy."
+  };
+
   return (
     <main className="flex-grow py-24 lg:py-32">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl">
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-black mb-16 uppercase">George</h1>

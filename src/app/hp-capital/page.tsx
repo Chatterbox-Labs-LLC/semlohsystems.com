@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Holmes and Paskewitz Capital LLC | HP Capital",
+  description: "Holmes and Paskewitz Capital LLC (HP Capital) is the systematic trading arm of Semloh Systems Corp, specializing in quantitative equity strategies and market microstructure.",
+};
+
 export default function HPCapitalPage() {
   return (
     <main className="flex-grow py-24 lg:py-32">

@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Connor | Co-Founder",
+  description: "Connor is a Co-Founder of Semloh Systems Corp, overseeing technological architecture and engineering divisions for the enterprise.",
+};
+
 export default function ConnorPage() {
   return (
     <main className="flex-grow py-24 lg:py-32">

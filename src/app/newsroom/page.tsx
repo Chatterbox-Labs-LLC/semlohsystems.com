@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Newsroom | Semloh Systems Corp",
+  description: "Latest news and press releases from Semloh Systems Corp, including investment round announcements and corporate milestones.",
+};
+
 export default function NewsroomPage() {
   return (
     <main className="flex-grow py-24 lg:py-32">

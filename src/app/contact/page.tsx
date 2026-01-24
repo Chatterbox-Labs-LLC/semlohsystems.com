@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact | Semloh Systems Corp",
+  description: "Contact Semloh Systems Corp, HP Capital, and Semloh Software. Headquarters in Chicago, Illinois.",
+};
+
 export default function ContactPage() {
   return (
     <main className="flex-grow py-24 lg:py-32">

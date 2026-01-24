@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Semloh Software LLC | Institutional Technology",
+  description: "Semloh Software LLC provides the high-performance engineering and infrastructure powering systematic trading and financial data analysis for Semloh Systems Corp.",
+};
+
 export default function SoftwarePage() {
   return (
     <main className="flex-grow py-24 lg:py-32">
