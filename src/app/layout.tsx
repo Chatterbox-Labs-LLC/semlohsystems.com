@@ -20,8 +20,8 @@ export const metadata: Metadata = {
     default: "Semloh Systems Corp | Global Investment & Technology",
     template: "%s | Semloh Systems Corp"
   },
-  description: "Semloh Systems Corp is a Chicago-based diversified holding company specializing in quantitative equity strategies via Holmes and Paskewitz Capital LLC and institutional software infrastructure via Semloh Software LLC.",
-  keywords: ["Semloh Systems Corp", "Holmes and Paskewitz Capital", "HP Capital", "Semloh Software", "George S Holmes", "Quantitative Trading Chicago", "Fintech Infrastructure", "Cayman Islands Funds"],
+  description: "Semloh Systems Corp is a Chicago-based trading firm specializing in research-driven, math-based investing via Holmes and Paskewitz Capital LLC and institutional software infrastructure via Semloh Software LLC.",
+  keywords: ["Semloh Systems Corp", "Holmes and Paskewitz Capital", "HP Capital", "Semloh Software", "George S Holmes", "Quantitative Trading Chicago", "Mathematical Investing", "Research-Based Trading", "Fintech Infrastructure", "Cayman Islands Funds"],
   authors: [{ name: "George S Holmes" }],
   creator: "George S Holmes",
   publisher: "Semloh Systems Corp",

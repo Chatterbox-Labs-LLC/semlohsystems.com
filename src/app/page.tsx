@@ -58,10 +58,10 @@ export default function Home() {
             </h1>
             <div className="space-y-8">
               <p className="text-xl md:text-2xl text-black font-normal leading-relaxed opacity-80">
-                Founded in 2024 and headquartered in Chicago, Semloh Systems Corp operates at the intersection of quantitative finance and advanced computational engineering.
+                Founded in 2024 and headquartered in Chicago, Semloh Systems Corp is a premier trading firm defined by a rigorous, research-based approach and mathematical precision in global investing.
               </p>
               <p className="text-lg text-black font-normal leading-relaxed opacity-60">
-                Our organization is structured to bridge the gap between complex market dynamics and robust software systems. Through our dedicated divisions, we deploy sophisticated trading strategies and build the infrastructure that powers modern financial operations.
+                Our organization is structured to transform complex quantitative research into systematic trading strategies. By leveraging advanced mathematical models and institutional-grade infrastructure, we navigate global markets with scientific objectivity and discipline.
               </p>
             </div>
           </div>
