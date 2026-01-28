@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact | Semloh Systems Corp",
-  description: "Contact Semloh Systems Corp, HP Capital, and Semloh Software. Headquarters in Chicago, Illinois.",
+  title: "Contact | Semloh",
+  description: "Contact Semloh, Semloh Trading Group, and Semloh Software Systems LLC. Headquarters in Chicago, Illinois.",
 };
 
 export default function ContactPage() {
@@ -14,7 +14,7 @@ export default function ContactPage() {
           
           <div className="space-y-12">
             <p className="text-xl text-black font-normal leading-relaxed opacity-80">
-              For general inquiries and corporate communications, please reach us at info@semlohcorp.com. For matters specifically regarding HP Capital investments, contact investors@hpcapital.llc, and for technology partnerships, contact engineering@semloh.software.
+              For general inquiries and corporate communications, please reach us at info@semlohcorp.com. For matters specifically regarding Semloh Trading Group investments, contact investors@hpcapital.llc, and for technology partnerships, contact engineering@semloh.software.
             </p>
             <p className="text-lg text-black font-normal leading-relaxed opacity-60">
               Our headquarters are located in Chicago, Illinois. While our corporate offices operate during standard business hours, our global trading and infrastructure support teams maintain 24/7 coverage to ensure the continuous stability of our operations and client services.

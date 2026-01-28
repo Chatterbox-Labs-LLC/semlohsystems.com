@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About | Semloh Systems Corp",
-  description: "Learn about Semloh Systems Corp, founded in 2024 in Chicago, and our mission to integrate financial intelligence with advanced technological infrastructure.",
+  title: "About | Semloh",
+  description: "Learn about Semloh, founded in 2024 in Chicago, and our mission to integrate financial intelligence with advanced technological infrastructure.",
 };
 
 export default function AboutPage() {
@@ -15,7 +15,7 @@ export default function AboutPage() {
           <div className="space-y-12">
             <section className="space-y-6">
               <p className="text-xl text-black font-normal leading-relaxed opacity-80">
-                Semloh Systems Corp was established in 2024 with a clear mandate: to redefine the integration of financial intelligence and technological infrastructure. Based in Chicago, we draw upon the city's rich history of financial innovation to build a modern, technology-first enterprise.
+                Semloh was established in 2024 with a clear mandate: to redefine the integration of financial intelligence and technological infrastructure. Based in Chicago, we draw upon the city's rich history of financial innovation to build a modern, technology-first enterprise.
               </p>
               <p className="text-lg text-black font-normal leading-relaxed opacity-60">
                 Our approach is rooted in the belief that the future of finance lies in the seamless fusion of quantitative research and high-performance computing. We don't just participate in the markets; we build the tools and systems that allow us to understand and navigate them with unprecedented precision.
